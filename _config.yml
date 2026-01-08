@@ -144,14 +144,13 @@ pwa:
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
-    deny_paths:
-      /posts
+    deny_paths: /posts
       /_posts # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://jiaoniyong.ygjc.cc"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
