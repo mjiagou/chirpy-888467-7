@@ -10,4 +10,4 @@ order: 4
 >添加 Markdown 语法内容到文件 `_tabs/about.md`{: .filepath } 并且它将显示在此页面上。
 {: .prompt-tip }
 
-添加 Markdown 语法内容到文件 `_tabs/about.md`{: .filepath } 
+> 添加 Markdown 语法内容到文件 `_tabs/about.md`{: .filepath } 
