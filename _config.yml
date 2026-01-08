@@ -224,3 +224,16 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-link-attributes
+
+# 外部链接自动添加属性配置
+external_links:
+  enabled: true
+  # 这里写你想要的所有 rel 属性
+  rel: noopener noreferrer nofollow
+  # 自动在新标签页打开（可选）
+  target: _blank
+  # 排除列表：如果你有其他域名不希望被视为外部链接，可以填在这里
+  exclude: []
